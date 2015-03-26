@@ -71,11 +71,14 @@
      <None Include="Assets\Cars\Panzer_II_Ausf_F\readme.txt" />
      <None Include="Assets\Music\Background\Dark Future\ReadMe.txt" />
      <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularSmooth.shader" />
+     <None Include="Assets\Animation\MoveMotionPack\SampleScene\Shaders\ReflectiveDiffuseSpecTransp.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\Coast_landscape\readme.txt" />
+     <None Include="Assets\Animation\MoveMotionPack\SampleScene\Shaders\DiffuseReflectiveShader.shader" />
      <None Include="Assets\Environment\Damaged_old_car\readme.txt" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Animation\MoveMotionPack\SampleScene\Shaders\ReflectiveDiffuseSpec.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
      <None Include="Assets\AirVehicles\F16 Jet\license.txt" />
      <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
@@ -90,6 +93,7 @@
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
+     <None Include="Assets\Environment\Hong Kong\Textures and Shaders\Reflect-BumpSpec.shader" />
      <None Include="Assets\Standard Assets\shader\DifBumpSpecTransp.shader" />
      <None Include="Assets\People\Cartoon Soldier\Readme.txt" />
      <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularDisplacement.shader" />

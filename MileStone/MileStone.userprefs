@@ -2,16 +2,8 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Artificial Intelligence\AICarScript.js">
     <Files>
-      <File FileName="MileStone.sln" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\CarController.js" Line="79" Column="1" />
-      <File FileName="Assets\Scripts\CarCamera.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\SkiddingScript.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\DestroyTimerScript.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\CrowdAnimation.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\TimerScript.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Artificial Intelligence\PathScript.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Artificial Intelligence\AICarScript.js" Line="128" Column="3" />
-      <File FileName="Assets\Scripts\Artificial Intelligence\BrakingSectorScript.js" Line="29" Column="1" />
+      <File FileName="Assets\Scripts\Artificial Intelligence\AICarScript.js" Line="297" Column="3" />
+      <File FileName="Assets\Environment\Hong Kong\Textures and Shaders\Reflect-BumpSpec.shader" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

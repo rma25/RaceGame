@@ -7,7 +7,7 @@ var minCarSpeed : float;
 function OnTriggerEnter(other : Collider)
 {
 	Debug.Log("Entered the Trigger");
-	if(other.gameObject.name == "AI")
+	if(other.gameObject.tag == "AI")
 	{
 		Debug.Log("inside other");
 		var controlCurrentSpeed : float = other.transform.root.GetComponent(AICarScript).currentSpeed;
@@ -24,6 +24,7 @@ function OnTriggerEnter(other : Collider)
 			other.transform.root.GetComponent(AICarScript).wheelRL.brakeTorque = 0;
 		}
 		other.transform.root.GetComponent(AICarScript).isBraking = true;
+
 	}
 }
 
@@ -31,7 +32,7 @@ function OnTriggerEnter(other : Collider)
 function OnTriggerExit(other : Collider)
 {
 	Debug.Log("Exitting Trigger");
-	if(other.tag === "AI")
+	if(other.gameObject.tag === "AI")
 	{
 		Debug.Log("Inside if on Exitting Trigger");
 		other.transform.root.GetComponent(AICarScript).inSector = false;
