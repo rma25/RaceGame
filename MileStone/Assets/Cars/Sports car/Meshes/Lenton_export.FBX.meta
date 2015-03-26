@@ -1,0 +1,132 @@
+fileFormatVersion: 2
+guid: 01e167df176d09a4395d7a9b08a08eff
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Body
+    100002: Exhaust
+    100004: FL_wheel
+    100006: FR_Brakes
+    100008: FR_Brakes001
+    100010: FR_Wheel
+    100012: Grills
+    100014: Headlight Lid
+    100016: //RootNode
+    100018: Plastic parts
+    100020: RL_Brakes
+    100022: RL_Wheel
+    100024: RR_Brakes
+    100026: RR_Wheel
+    100028: Windows
+    400000: Body
+    400002: Exhaust
+    400004: FL_wheel
+    400006: FR_Brakes
+    400008: FR_Brakes001
+    400010: FR_Wheel
+    400012: Grills
+    400014: Headlight Lid
+    400016: //RootNode
+    400018: Plastic parts
+    400020: RL_Brakes
+    400022: RL_Wheel
+    400024: RR_Brakes
+    400026: RR_Wheel
+    400028: Windows
+    2300000: Body
+    2300002: Exhaust
+    2300004: FL_wheel
+    2300006: FR_Brakes
+    2300008: FR_Brakes001
+    2300010: FR_Wheel
+    2300012: Grills
+    2300014: Headlight Lid
+    2300016: Plastic parts
+    2300018: RL_Brakes
+    2300020: RL_Wheel
+    2300022: RR_Brakes
+    2300024: RR_Wheel
+    2300026: Windows
+    3300000: Body
+    3300002: Exhaust
+    3300004: FL_wheel
+    3300006: FR_Brakes
+    3300008: FR_Brakes001
+    3300010: FR_Wheel
+    3300012: Grills
+    3300014: Headlight Lid
+    3300016: Plastic parts
+    3300018: RL_Brakes
+    3300020: RL_Wheel
+    3300022: RR_Brakes
+    3300024: RR_Wheel
+    3300026: Windows
+    4300000: Plastic parts
+    4300002: Headlight Lid
+    4300004: Windows
+    4300006: Body
+    4300008: FL_wheel
+    4300010: FR_Wheel
+    4300012: RR_Wheel
+    4300014: RL_Wheel
+    4300016: RR_Brakes
+    4300018: RL_Brakes
+    4300020: FR_Brakes
+    4300022: FR_Brakes001
+    4300024: Grills
+    4300026: Exhaust
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00240000011
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

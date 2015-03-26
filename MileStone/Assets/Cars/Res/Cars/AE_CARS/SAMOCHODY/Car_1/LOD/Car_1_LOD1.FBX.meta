@@ -1,0 +1,120 @@
+fileFormatVersion: 2
+guid: 1a088f9a477d75148bd66a13d85f9213
+labels:
+- Car
+- Sport
+- Vehicle
+- Racer
+- Lowpoly
+- Lod
+- Hardsurface
+- Wheel
+- Auto
+- Automobile
+- Game
+- Mobile
+- Ride
+- Chase
+- Run
+- Fast
+- Drift
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Body_1_LOD1
+    100002: //RootNode
+    100004: Glass_1_LOD1
+    100006: Matte_1_LOD1
+    100008: Taillights_1_Audi-R009
+    100010: Wheel_Back_LOD1
+    100012: Wheel_L_LOD1
+    100014: Wheel_R_LOD1
+    100016: Taillights_1
+    400000: Body_1_LOD1
+    400002: //RootNode
+    400004: Glass_1_LOD1
+    400006: Matte_1_LOD1
+    400008: Taillights_1_Audi-R009
+    400010: Wheel_Back_LOD1
+    400012: Wheel_L_LOD1
+    400014: Wheel_R_LOD1
+    400016: Taillights_1
+    2300000: Body_1_LOD1
+    2300002: Glass_1_LOD1
+    2300004: Matte_1_LOD1
+    2300006: Taillights_1_Audi-R009
+    2300008: Wheel_Back_LOD1
+    2300010: Wheel_L_LOD1
+    2300012: Wheel_R_LOD1
+    2300014: Taillights_1
+    3300000: Body_1_LOD1
+    3300002: Glass_1_LOD1
+    3300004: Matte_1_LOD1
+    3300006: Taillights_1_Audi-R009
+    3300008: Wheel_Back_LOD1
+    3300010: Wheel_L_LOD1
+    3300012: Wheel_R_LOD1
+    3300014: Taillights_1
+    4300000: Wheel_L_LOD1
+    4300002: Taillights_1_Audi-R009
+    4300004: Glass_1_LOD1
+    4300006: Matte_1_LOD1
+    4300008: Body_1_LOD1
+    4300010: Wheel_Back_LOD1
+    4300012: Wheel_R_LOD1
+    4300014: Taillights_1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
