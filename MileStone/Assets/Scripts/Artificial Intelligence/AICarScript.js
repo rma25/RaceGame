@@ -17,7 +17,6 @@ var AIbrakeLightObject : GameObject;
 var AIreverseLightObject : GameObject;
 var inSector : boolean;
 var isBraking : boolean;
-var isReversing : boolean;
 var sensorLength : float = 5;
 var frontSensorStartPoint : float = 2.50;
 var frontSensorSideDist : float = 0.72;
@@ -132,15 +131,12 @@ function BrakingEffect()
 	{
 		AIbrakeLightObject.SetActive(true);
 	}
-	else if(isReversing)
+	if(reversing)
 	{
 		AIreverseLightObject.SetActive(true);
 	}
-	else
-	{
 		AIbrakeLightObject.SetActive(false);
 		AIreverseLightObject.SetActive(false);
-	}
 
 }
 
@@ -199,7 +195,7 @@ function Sensors()
 		if(hit.transform.tag != "Terrain")
 		{
 			flag ++;
-			avoidSensitivity -=0.5;
+			avoidSensitivity -=1;
 		}
 	}
 	
@@ -209,7 +205,7 @@ function Sensors()
 		if(hit.transform.tag != "Terrain")
 		{
 			flag++;
-			avoidSensitivity -= .5; 
+			avoidSensitivity -= 1; 
 			Debug.DrawLine(pos,hit.point, Color.white);
 		}
 	}	
@@ -233,7 +229,7 @@ function Sensors()
 		if(hit.transform.tag != "Terrain")
 		{
 			flag ++;
-			avoidSensitivity +=0.5;
+			avoidSensitivity +=1;
 		}
 	}
 	
@@ -243,7 +239,7 @@ function Sensors()
 		if(hit.transform.tag != "Terrain")
 		{
 			flag++;
-			avoidSensitivity += .5; 
+			avoidSensitivity += 1; 
 			Debug.DrawLine(pos,hit.point, Color.white);
 		}
 	}
@@ -254,7 +250,7 @@ function Sensors()
 		if(hit.transform.tag != "Terrain")
 		{
 			flag++;
-			avoidSensitivity-=0.5;
+			avoidSensitivity-=1;
 			Debug.DrawLine(transform.position,hit.point, Color.white);
 		}
 	}
@@ -265,7 +261,7 @@ function Sensors()
 		if(hit.transform.tag != "Terrain")
 		{
 			flag++;
-			avoidSensitivity+=0.5;
+			avoidSensitivity+=1;
 			Debug.DrawLine(transform.position,hit.point, Color.white);
 		}
 	}
@@ -285,7 +281,7 @@ function Sensors()
 			}
 			else
 			{
-				avoidSensitivity = 0.5;
+				avoidSensitivity = 1;
 			}
 		}
 	}
@@ -317,7 +313,7 @@ function Reverse(avoidSens : float)
 	
 	if(reversing)
 	{
-		avoidSens *=1;
+		avoidSens *=-1;
 		reverCounter += Time.deltaTime;
 		if(reverCounter >= reverseFor)
 		{
@@ -345,7 +341,6 @@ function Respawn()
 			respawnCounter = 0;
 			//In case the car flips and it loses direction, this will put it back where is supposed to go
 			transform.localEulerAngles.z = 0;
-			transform.localEulerAngles.y = 0;
 		}
 	}
 }

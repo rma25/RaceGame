@@ -36,6 +36,8 @@ var rpmPointer : Texture2D; //Not being used but it's available
 var rpmDial : Texture2D;	//Not being used but it's available
 var spark : GameObject;
 var collisionSound : GameObject;
+var respawnWait : float = 2; //5 seconds
+var respawnCounter : float = 0.0;
 
 function Start () {
 	rigidbody.centerOfMass = centerOfMass;
@@ -54,6 +56,7 @@ function FixedUpdate () {
 
 	Controle();
 	HandBrake();
+	LamboRespawn();
 }
 
 function Update(){
@@ -295,5 +298,18 @@ function OnCollisionEnter(other : Collision)
 			clone.transform.parent = transform;
 		}
 	}
+}
 
+function LamboRespawn()
+{
+	if(rigidbody.velocity.magnitude < 2)
+	{
+		respawnCounter += Time.deltaTime;
+		if(respawnCounter >= respawnWait)
+		{
+			respawnCounter = 0;
+			//In case the car flips and it loses direction, this will put it back where is supposed to go
+			transform.localEulerAngles.z = 0;
+		}
+	}
 }

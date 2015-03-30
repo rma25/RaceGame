@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\Artificial Intelligence\AICarScript.js" />
      <Compile Include="Assets\Scripts\Artificial Intelligence\BrakingSectorScript.js" />
      <Compile Include="Assets\Scripts\Artificial Intelligence\PathScript.js" />
+     <Compile Include="Assets\Scripts\Artificial Intelligence\WeatherScript.js" />
      <Compile Include="Assets\Scripts\CarCamera.js" />
      <Compile Include="Assets\Scripts\CarController.js" />
      <Compile Include="Assets\Scripts\CrowdAnimation.js" />
@@ -95,6 +96,7 @@
      <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
+     <None Include="Assets\Environment\Elementals\!Readme.txt" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
      <None Include="Assets\Cars\Army Vehicle\license.txt" />
@@ -107,6 +109,7 @@
      <None Include="Assets\Environment\Hong Kong\Textures and Shaders\Reflect-BumpSpec.shader" />
      <None Include="Assets\Standard Assets\shader\DifBumpSpecTransp.shader" />
      <None Include="Assets\People\Cartoon Soldier\Readme.txt" />
+     <None Include="Assets\Environment\Wispy Sky\ReadMe.txt" />
      <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularDisplacement.shader" />
      <None Include="Assets\Cars\Stockcar\ReadMe.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
