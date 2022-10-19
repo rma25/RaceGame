@@ -1,0 +1,2 @@
+C:\Code\rma25\RaceGame\MileStone\obj\Debug\Assembly-CSharp-vs.csproj.AssemblyReference.cache
+C:\Code\rma25\RaceGame\MileStone\obj\Debug\Assembly-CSharp-vs.csproj.CoreCompileInputs.cache
