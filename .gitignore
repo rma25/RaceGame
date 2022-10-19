@@ -2,6 +2,9 @@
 Thumbs.db
 ehthumbs.db
 
+# Ignore Directories
+MileStone/Library/
+
 # Folder config file
 Desktop.ini
 
